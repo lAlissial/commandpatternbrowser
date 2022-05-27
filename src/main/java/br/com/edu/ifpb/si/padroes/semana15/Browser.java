@@ -67,7 +67,7 @@ public class Browser {
 
     private void back() {
         if (history.isEmpty()){
-            System.out.println("There's no more way");
+            return;
         }
 
         Command command = history.pop();

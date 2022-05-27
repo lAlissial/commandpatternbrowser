@@ -18,10 +18,7 @@ public abstract class Command {
         if (backup!=null){
             System.out.println("Histórico de Visitas:");
             System.out.println("Home: ["+ backup +"]");
-        } else{
-            System.out.println("");
         }
-
     }
 
     public abstract boolean execute();

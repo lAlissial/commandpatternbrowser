@@ -25,7 +25,7 @@ public class VisitCommand extends Command{
                     backup();
 
                     // Lendo conteudo da página
-                    /*try (BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()))) {
+                    try (BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()))) {
 
                         String line;
 
@@ -38,7 +38,7 @@ public class VisitCommand extends Command{
                         }
 
                         System.out.println(sb);
-                    }*/
+                    }
 
 
                 } catch (Exception e){
